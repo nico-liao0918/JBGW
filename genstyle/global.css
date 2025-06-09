@@ -202,13 +202,15 @@ form textarea {
 }
 
 form button {
+    display: inline-block;
     padding: 10px;
-    background-color: #28a745;
+    margin: 10px;
+    background-color: darkgreen;
     color: white;
-    border: none;
-    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 form button:hover {
-    background-color: #218838;
+    background-color: green;
 }

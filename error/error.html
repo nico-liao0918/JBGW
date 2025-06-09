@@ -19,6 +19,16 @@
         </header>
 
         <main>
+            <section>
+                <div id="popup" class="popup_hidden">
+                  <div class="popup-box">
+                    <h3>Stay in the Loop!</h3>
+                    <p>Subscribe to receive updates, newsletters, newspapers, or announcements.</p>
+                    <button onclick="location.href='subscribe.html'">Yes, Sign Me Up</button>
+                    <button onclick="closePopup()">No, Thanks</button>
+                  </div>
+                </div>
+            </section>
             <p>The site is currently down.</p>
             <p>Please check back later.</p>
         </main>
@@ -32,7 +42,13 @@
                         All Rights Reserved.
                     </p>
                 </div>
+                <div>
+                    <p>
+                        <a href="../index.html">Go Back to Home Page</a>
+                    </p>
+                </div>
             </section>
         </footer>
+        <script src="popup.js" defer></script>
     </body>
 </html>

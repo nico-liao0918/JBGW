@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!--
+        <meta http-equiv="refresh" content="0; url=/error/error.html">
+        -->
+        <title>JBGW WEBSITE</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="genstyle/global.css">
+        <link rel="stylesheet" href="styles/feeds.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a 
+                        href="index.html">
+                            James Blog Website
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <nav>
+                    <button id="menu-toggle">☰ Menu</button>
+                    <ul id="menu-list" class="hidden">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="feed.html">Feed</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <button id="dark-toggle" class="button">Toggle Dark Mode</button>
+            </section>
+            <section>
+                <div id="popup" class="popup_hidden">
+                  <div class="popup-box">
+                    <h3>Stay in the Loop!</h3>
+                    <p>Subscribe to receive updates, newsletters, newspapers, or announcements.</p>
+                    <button onclick="location.href='subscribe.html'">Yes, Sign Me Up</button>
+                    <button onclick="closePopup()">No, Thanks</button>
+                  </div>
+                </div>
+            </section>
+            <section>
+                <h1>Blog Feed</h1>
+            </section>
+            <section class="feed-container">
+                <!--
+                <div class="post">
+                    <h2>Post Title 1</h2>
+                    <p class="date">
+                        October 25, 2024
+                    </p>
+                    <p class="description">
+                        This is a short description of the first post. Catchy descriptions make posts
+                        more engaging.
+                    </p>
+                    <a href="post1.html" class="read-more">
+                        Read More
+                    </a>
+                </div>
+                -->
+                <div>
+                    <div class="post">
+                        <h2>
+                            How I Started My Digital Journey: From Graduate to 
+                            Coder and Author
+                        </h2>
+                        <p class="date">
+                            May 18, 2025
+                        </p>
+                        <p class="description">
+                            A personal story of how I turned post-graduation 
+                            uncertainty into a journey of self-learning — teaching 
+                            myself to code, writing a novel, and building something 
+                            out of nothing. If you're figuring out your path too, 
+                            this might just spark your next step.
+                        </p>
+                        <a href="bpfirst.html" class="read-more">
+                            Read More
+                        </a>
+                    </div>
+                    <d class="post">
+                        <h2>Progress of a Coder</h2>
+                        <p class="date">
+                            June 18, 2025
+                        </p>
+                        <p class="description">
+                            A reflection on how far I've come since learning my 
+                            first lines of code, the milestones I've hit, and the 
+                            lessons I've learned — from HTML to publishing my projects 
+                            online.
+                        </p>
+                        <a href="bpsecond.html" class="read-more">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <div>
+                    <p>
+                        Copyright &copy; 2024 
+                        James Blog Website. 
+                        All Rights Reserved.
+                    </p>
+                </div>
+            </section>
+        </footer>
+        <script src="toggle.js"></script>
+        <script src="menu.js"></script>
+        <script src="popup.js" defer></script>
+    </body>
+</html>

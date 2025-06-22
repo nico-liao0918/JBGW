@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!--
+        <meta http-equiv="refresh" content="0; url=./error/error.html">
+        -->
+        <title>JBGW WEBSITE</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="genstyle/global.css">
+        <link rel="stylesheet" href="styles/profile.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a 
+                        href="index.html">
+                            James Blog Website
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <nav>
+                    <button id="menu-toggle">☰ Menu</button>
+                    <ul id="menu-list" class="hidden">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="feed.html">Feed</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <button id="dark-toggle" class="button">Toggle Dark Mode</button>
+            </section>
+            <section>
+                <div id="popup" class="popup_hidden">
+                  <div class="popup-box">
+                    <h3>Stay in the Loop!</h3>
+                    <p>Subscribe to receive updates, newsletters, newspapers, or announcements.</p>
+                    <button onclick="location.href='subscribe.html'">Yes, Sign Me Up</button>
+                    <button onclick="closePopup()">No, Thanks</button>
+                  </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <img 
+                        src="assets/james_liao_profile.jpg" 
+                        alt="Profile Picture" 
+                        width="200" 
+                        height="200"
+                    />
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h1>JAMES DOMINIC LIAO</h1>
+                    <p class="bio">
+                        Hi! I’m James Dominic Liao, a passionate blogger specializing in any topics under the sun. 
+                        I love sharing insights on programming, games, or reviews, food, how to's, any other topics under the sun, 
+                        connecting with my readers, and creating meaningful content.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Connect with Me</h2>
+                    <p>If you’d like to reach out, you can find me on:</p>
+                    <p>
+                        <a 
+                            href="mailto:jamesliao09@yahoo.com"
+                            class="button">
+                                Email
+                        </a>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <div>
+                    <p>
+                        Copyright &copy; 2024 
+                        James Blog Website. 
+                        All Rights Reserved.
+                    </p>
+                </div>
+            </section>
+        </footer>
+        <script src="toggle.js"></script>
+        <script src="menu.js"></script>
+        <script src="popup.js" defer></script>
+    </body>
+</html>

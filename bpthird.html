@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+         <meta charset="UTF-8"/>
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!--
+        <meta http-equiv="refresh" content="0; url=error.html">
+        -->
+        <title>JBGW WEBSITE</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="genstyle/global.css">
+        <link rel="stylesheet" href="styles/post.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a 
+                        href="index.html">
+                            James Blog Website
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <nav>
+                    <button id="menu-toggle">☰ Menu</button>
+                    <ul id="menu-list" class="hidden">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="feed.html">Feed</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <button id="dark-toggle" class="button">Toggle Dark Mode</button>
+            </section>
+            <section>
+                <div id="popup" class="popup_hidden">
+                  <div class="popup-box">
+                    <h3>Stay in the Loop!</h3>
+                    <p>Subscribe to receive updates, newsletters, newspapers, or announcements.</p>
+                    <button onclick="location.href='subscribe.html'">Yes, Sign Me Up</button>
+                    <button onclick="closePopup()">No, Thanks</button>
+                  </div>
+                </div>
+            </section>
+            <section>
+                <p><a href="feed.html" class="button">Go Back to Feed</a></p>
+            </section>
+            <article class="blog-post">
+                <div>
+                    <header>
+                        <h1>From 2009 to Today: Why I Believed in a Better Financial System Before I Even Knew About Bitcoin</h1>
+                        <p class="post-meta">By <span class="author">James Dominic Liao (AKA: Elius Krius Niro)</span> | <span class="date">September 22, 2025</span></p>
+                    </header>
+
+                    <section class="post-content">
+                        <p>
+                            What happens when the bank you trust suddenly closes its doors?
+                        </p>
+                        <p>
+                            For many in the Philippines, the closure of Banco Filipino in 2011 was one of those moments. I 
+                            wasn’t old enough then to fully grasp what was happening, but I remember the stories: people lining 
+                            up, filing for claims, hoping to get their hard-earned money back. Some did, many didn’t. It was a 
+                            stark reminder that even when we think our money is safe, the system doesn’t always protect us.
+                        </p>
+                        <p>
+                            At the same time, the world was still reeling from the 2008 financial crisis. 
+                            Lehman Brothers collapsed, banks around the globe were shaken, and confidence 
+                            in traditional finance was at an all-time low. In that very moment, quietly, 
+                            something new was born — Bitcoin.
+                        </p>
+                        <h2>A 14-Year-Old’s Idea</h2>
+                        <p>
+                            I was 14 when Bitcoin’s whitepaper first appeared in 2009. At that age, I had no clue what cryptocurrency 
+                            was. But I did have a dream. I imagined a kind of digital money that didn’t depend on a single bank, a 
+                            system that could never disappear overnight and take people’s savings with it.
+                        </p>
+                        <p>
+                            Of course, I didn’t have the tools, the knowledge, or the experience yet. But the seed of the idea stayed 
+                            with me.
+                        </p>
+                        <p>
+                            By 2012, when Bitcoin was slowly starting to enter conversations, I was already thinking through my 
+                            own vision. By the time I finished senior high school in 2018, and then graduated with my degree in 
+                            Business Administration in 2022, the idea hadn’t left me. If anything, the rise of crypto only made 
+                            me more determined to build a system based not just on digital money, but on trust, accountability, 
+                            and resilience.
+                        </p>
+                        <h2>Lessons from the Old System</h2>
+                        <p>Looking back, the failures of banks taught me three things:</p>
+                        <ul>
+                            <li>
+                                Trust can vanish overnight. A good-looking institution today might be gone tomorrow.
+                            </li>
+                            <li>
+                                Accountability is blurry. Even when agencies like PDIC step in, people often don’t recover what they lost.
+                            </li>
+                            <li>
+                                People deserve transparency. It should be clear how money moves, where it’s stored, and what risks exist.
+                            </li>
+                        </ul>
+                        <p>
+                            These are lessons that still matter in 2025. And they’re the foundation of why I believe a new kind
+                            of system must exist — one that doesn’t just digitize money, but rebuilds trust itself.
+                        </p>
+                        <h2>The Rise of Crypto — and My Different Path</h2>
+                        <p>
+                            Bitcoin proved one thing: people are ready for an alternative. Since then, countless projects have 
+                            appeared, each claiming to be “the next Bitcoin” or “the solution.” Many are innovative. Many are 
+                            also short-lived, hype-driven, or far from the ideals they claim.
+                        </p>
+                        <p>
+                            My vision is different. It isn’t just about creating a token or currency. It’s about designing a 
+                            trust system — where honesty, accountability, and transparency aren’t optional, but built into the 
+                            core of the network. Where users know that their money, their data, and their participation truly 
+                            matter.
+                        </p>
+                        <h2>Why Share This Now?</h2>
+                        <p>
+                            Because the story of finance isn’t just about charts and markets. It’s about people. Families who lost their 
+                            savings in a collapsed bank. Early adopters who believed in Bitcoin before the world cared. And teenagers — 
+                            like me back in 2009 — who looked at a broken system and thought: there must be a better way.
+                        </p>
+                        <p>
+                            That belief has never left me. And now, as I continue working on my own path, I want to share it openly. Not 
+                            as a claim to being “first,” but as a reminder: the future of money starts with trust. And trust starts with 
+                            us.
+                        </p>
+                    </section>
+                </div>
+            </article>
+            <section>
+                <div id="disqus_thread"></div>
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = window.location.href;
+                        this.page.identifier = window.location.pathname;
+                    };
+                    (function() { 
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://jamesblogwebsite.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </section>
+        </main>
+
+        <footer>
+        <section>
+            <div>
+                <p>
+                    Copyright &copy; 2024 
+                    James Blog Website. 
+                    All Rights Reserved.
+                </p>
+            </div>
+        </section>
+    </footer>
+    <script id="dsq-count-scr" src="//jamesblogwebsite.disqus.com/count.js" async></script>
+    <script src="toggle.js"></script>
+    <script src="menu.js"></script>
+    <script src="popup.js" defer></script>
+    </body>
+</html>

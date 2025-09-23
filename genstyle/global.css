@@ -8,7 +8,6 @@
     padding: 0;
 }
 
-
 /* ============================= */
 /*         DARK MODE            */
 /* ============================= */
@@ -35,12 +34,10 @@ body.dark #menu-toggle {
   color: white;
 }
 
-
 /* ============================= */
 /*            HEADER            */
 /* ============================= */
 header {
-    margin: 5px;
     padding: 5px;
     background-color: darkgreen;
     color: white;
@@ -72,13 +69,12 @@ header a {
     text-decoration: none;
 }
 
-
 /* ============================= */
 /*         NAVIGATION           */
 /* ============================= */
 nav {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     background-color: green;
     color: white;
     text-align: center;
@@ -91,13 +87,11 @@ nav ul {
     list-style-type: none;
     text-decoration: none;
     padding: 5px;
-    margin: 5px;
 }
 
 nav ul li {
     color: white;
     text-decoration: none;
-    margin: 5px;
     padding: 5px;
     display: inline;
 }
@@ -109,7 +103,6 @@ nav ul li {
 #menu-list {
     display: block;
 }
-
 
 /* ============================= */
 /* MOBILE & TABLET STYLES (up to 1024px) */
@@ -165,7 +158,6 @@ nav ul li {
       }
 }
 
-
 /* ============================= */
 /*             MAIN             */
 /* ============================= */
@@ -202,14 +194,11 @@ main ul li {
     text-decoration: none;
 }
 
-
 /* ============================= */
 /*            FOOTER            */
 /* ============================= */
 footer {
     text-align: center;
-    margin: 10px;
-    padding: 20px;
     background-color: black;
     color: white;
 }
@@ -222,7 +211,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
 
 /* ============================= */
 /*         BUTTON STYLE         */
@@ -253,8 +241,6 @@ footer a:hover {
 .buton:hover {
     background-color: green;
 }
-
-
 
 /* ============================= */
 /*        FORM STYLING          */
@@ -287,7 +273,6 @@ form button {
 form button:hover {
     background-color: green;
 }
-
 
 /* ============================= */
 /*       POPUP / MODAL STYLE    */
